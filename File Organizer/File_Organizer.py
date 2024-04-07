@@ -1,18 +1,17 @@
 import os
 import shutil
-import time
 
 source_dir = "/Users/Tyler/Downloads/"
 files = os.listdir(source_dir)
 filedict = {
-    "/Users/Tyler/Documents/Downloaded Documents/": ('.pdf', '.doc', '.docx', '.html', '.htm', '.odt', '.xls', '.xlsx', '.ods', '.ppt', '.pptx', '.txt'),   
-    "/Users/Tyler/Pictures/Downloaded Pictures/": ('.jpg', '.jpeg', '.png', '.gif'),
-    "/Users/Tyler/Documents/Bank Statements/": ('.csv', '.json', '.xml'),
-    "/Users/Tyler/Downloads/Zip Files/": ('.zip', ".7z", '.rar'),
-    "/Users/Tyler/Downloads/Installers/": ('.exe', '.jar', '.msi'),
-    "/Users/Tyler/Downloads/Rain Meter Skins/": ('.rmskin', '.rmmisc', '.rmpack'),
-    "/Users/Tyler/Videos/Downloaded Videos/": ('.mp4', '.mov', '.avi', '.wmv', '.webm', '.flv'),
-    "/Users/Tyler/Music/Downloaded Music":  ('.mp3', '.m4a', '.flac', '.wav', '.wma', '.aac')
+    "C:/Users/Tyler/Documents/Downloaded Documents/": ('.pdf', '.doc', '.docx', '.html', '.htm', '.odt', '.xls', '.xlsx', '.ods', '.ppt', '.pptx', '.txt'),   
+    "C:/Users/Tyler/Pictures/Downloaded Pictures/": ('.jpg', '.jpeg', '.png', '.gif'),
+    "C:/Users/Tyler/Documents/Bank Statements/": ('.csv', '.json', '.xml'),
+    "C:/Users/Tyler/Downloads/Zip Files/": ('.zip', ".7z", '.rar'),
+    "C:/Users/Tyler/Downloads/Installers/": ('.exe', '.jar', '.msi'),
+    "C:/Users/Tyler/Downloads/Rain Meter Skins/": ('.rmskin', '.rmmisc', '.rmpack'),
+    "C:/Users/Tyler/Videos/Downloaded Videos/": ('.mp4', '.mov', '.avi', '.wmv', '.webm', '.flv'),
+    "C:/Users/Tyler/Music/Downloaded Music/":  ('.mp3', '.m4a', '.flac', '.wav', '.wma', '.aac')
     }
 
 for file in files: #scans files in source directory
