@@ -28,7 +28,7 @@ def organize_file(directory):
     for file in files: #scans files in source directory
         for x in directory: #scans through file dictionary
             if file.endswith(tuple(directory[x])): #uses the ext tuples to see if any files match any extensions
-                shutil.move(os.path.join(source_dir, file), os.path.join(x, file)) #moves file to proper folder\
+                shutil.move(os.path.join(source_dir, file), os.path.join(x, file)) #moves file to proper folder
                 
 if __name__ == "__main__":
     create_dir(filedict) #put dictionary name in parameter
